@@ -1,3 +1,12 @@
 <resources>
-    <string name="app_name">CC Maker</string>
+    <string name="app_name">PicShare</string>
+    <string name="cc_by">CC BY</string>
+    <string name="cc_by_sa">CC BY SA</string>
+    <string name="cc_by_nc">CC BY NC</string>
+    <string name="cc_by_nd">CC BY ND</string>
+    <string name="cc_by_nc_sa">CC BY NC SA</string>
+    <string name="cc_by_nc_nd">CC BY NC ND</string>
+    <string name="cancel">Cancel</string>
+    <string name="share">Share</string>
+    <string name="picshare">PicShare</string>
 </resources>

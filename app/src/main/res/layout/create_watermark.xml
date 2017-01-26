@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:layout_width="match_parent"
+    style="@style/AppTheme">
+
+    <TextView
+        android:text="Choose your license"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/title"
+        android:textAlignment="center"
+        android:textSize="30sp" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="421dp"
+        android:onClick="onLicensePickerClick">
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:id="@+id/cc_by_radio"
+            android:text="@string/cc_by"
+            android:onClick="onLicensePickerClick" />
+
+        <RadioButton
+            android:text="@string/cc_by_sa"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:id="@+id/cc_by_sa_radio"
+            android:onClick="onLicensePickerClick" />
+
+        <RadioButton
+            android:text="@string/cc_by_nc"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:id="@+id/cc_by_nc_radio"
+            android:onClick="onLicensePickerClick" />
+
+        <RadioButton
+            android:text="@string/cc_by_nd"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:id="@+id/cc_by_nd_radio"
+            android:onClick="onLicensePickerClick" />
+
+        <RadioButton
+            android:text="@string/cc_by_nc_sa"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:id="@+id/cc_by_nc_sa_radio"
+            android:onClick="onLicensePickerClick" />
+
+        <RadioButton
+            android:text="@string/cc_by_nc_nd"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:id="@+id/cc_by_nc_nd_radio"
+            android:onClick="onLicensePickerClick" />
+
+    </RadioGroup>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:text="@string/cancel"
+            android:layout_height="wrap_content"
+            android:id="@+id/cancel"
+            android:layout_weight="1"
+            android:layout_width="wrap_content" />
+
+        <Button
+            android:text="@string/share"
+            android:layout_height="wrap_content"
+            android:id="@+id/ok"
+            android:layout_weight="1"
+            android:layout_width="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>
